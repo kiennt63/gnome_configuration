@@ -1,0 +1,32 @@
+VteTerminal, vte-terminal {
+    padding: 10px;
+}
+
+
+/* Title bar */
+.titlebar {
+    background: linear-gradient(to right, #ff9ad2, #b28ef5);
+    color:rgb(63, 63, 63); 
+}
+
+.titlebar:backdrop  {
+    background: linear-gradient(to right, #ffb9e0, #c5acf1);
+    color:rgb(63, 63, 63);
+} 
+
+/* .terminator-terminal-window notebook tab {
+    background-color: darkgrey;
+    padding: 0;
+    border: 0;
+  }
+  .terminator-terminal-window notebook tab:checked {
+    background-image: none;
+    background-color: #459cc4;
+  }
+  .terminator-terminal-window notebook tab button {
+    padding: 0;
+  } */
+
+
+
+
