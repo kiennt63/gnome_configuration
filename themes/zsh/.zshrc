@@ -33,7 +33,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # zstyle ':omz:update' frequency 13
 
 # Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS="true"
+DISABLE_MAGIC_FUNCTIONS="true"
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -105,7 +105,7 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Exporting
-export PATH=/opt/cmake/cmake-3.20.6-linux-x86_64/bin:$PATH
+export PATH=/usr/local/cuda/bin:/opt/cmake/cmake-3.20.6-linux-x86_64/bin:$PATH
 export LD_LIBRARY_PATH=/opt/vinai_adas_dds/sdk_1.1.2/lib/armv8Linux4.4gcc5.4.0/:/opt/vinai_adas_dds/sdk_1.1.2/lib/armv8QNX7.0.0qcc_gpp5.4.0/:/opt/vinai_adas_dds/sdk_1.1.2/lib/x64Linux4gcc7.3.0/:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=/opt/rti_connext_dds-6.0.1/lib/armv8Linux4.4gcc5.4.0/:/opt/rti_connext_dds-6.0.1/lib/armv8QNX7.0.0qcc_gpp5.4.0/:/opt/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0/:$LD_LIBRARY_PATH
 # Customize
@@ -113,4 +113,3 @@ eval "$(dircolors -p | sed 's/ 4[0-9];/ 01;/; s/;4[0-9];/;01;/g; s/;4[0-9] /;01 
 
 # Aliasing
 alias win="cd /mnt/c/Users/kienn"
-
