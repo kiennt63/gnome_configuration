@@ -1,0 +1,59 @@
+[global_config]
+  scroll_tabbar = True
+  inactive_color_offset = 0.65625
+  suppress_multiple_term_dialog = True
+  line_height = 1.2
+[keybindings]
+  split_horiz = <Primary><Super>Down
+  split_vert = <Primary><Super>Right
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_color = "#25273d"
+    background_darkness = 0.85
+    background_type = transparent
+    cursor_color = "#bd93f9"
+    cursor_color_fg = False
+    font = CourierPrimeCode NF Italic 15
+    foreground_color = "#a9b1d6"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#32344a:#f7768e:#9ece6a:#e0af68:#7aa2f7:#ad8ee6:#449dab:#ffffff:#525b7e:#ff7a93:#b9f27c:#ff9e64:#7da6ff:#bb9af7:#0db9d7:#acb0d0"
+    use_system_font = False
+    line_height = 1.2
+  [[dracula]]
+    allow_bold = False
+    background_color = "#222535"
+    background_darkness = 1.0
+    background_type = transparent
+    cursor_color = "#7fffd4"
+    font = CourierPrimeCode NF Italic 15
+    foreground_color = "#f8f8f2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#262626:#e356a7:#42e66c:#e4f34a:#9b6bdf:#e64747:#75d7ec:#ffffff:#7a7a7a:#ff79c6:#50fa7b:#f1fa8c:#bd93f9:#ff5555:#8be9fd:#ffb86c"
+    use_system_font = False
+    line_height = 1.2
+  [[tokyo_night]]
+    allow_bold = False
+    background_color = "#25273d"
+    background_darkness = 0.85
+    background_type = transparent
+    cursor_color = "#bd93f9"
+    cursor_color_fg = False
+    font = CourierPrimeCode NF Italic 15
+    foreground_color = "#a9b1d6"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#32344a:#f7768e:#9ece6a:#e0af68:#7aa2f7:#ad8ee6:#449dab:#ffffff:#525b7e:#ff7a93:#b9f27c:#ff9e64:#7da6ff:#bb9af7:#0db9d7:#acb0d0"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+      profile = neik
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
