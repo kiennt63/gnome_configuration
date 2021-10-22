@@ -2,7 +2,7 @@
   scroll_tabbar = True
   inactive_color_offset = 0.65625
   suppress_multiple_term_dialog = True
-  line_height = 1.2
+  line_height = 1.3
 [keybindings]
   split_horiz = <Primary><Super>Down
   split_vert = <Primary><Super>Right
