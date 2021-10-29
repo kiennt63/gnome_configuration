@@ -7,11 +7,17 @@ VteTerminal, vte-terminal {
 .titlebar {
     background: linear-gradient(to right, #ff9ad2, #b28ef5);
     color:rgb(63, 63, 63); 
+    height: 40px !important;
+    max-height: 40px !important;
+    min-height: 40px !important;
 }
 
 .titlebar:backdrop  {
     background: linear-gradient(to right, #ffb9e0, #c5acf1);
     color:rgb(63, 63, 63);
+    height: 40px !important;
+    max-height: 40px !important;
+    min-height: 40px !important;
 } 
 
 /* .terminator-terminal-window notebook tab {
