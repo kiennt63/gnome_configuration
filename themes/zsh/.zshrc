@@ -47,19 +47,20 @@ alias ls="exa --icons --group-directories-first"
 alias ll="exa -l --icons --group-directories-first"
 alias l="exa -l --icons --group-directories-first -a"
 alias tree="exa --icons -T -L"
+alias untar="tar -xvf"
 
 
 # ----------------- EXPORT -----------------
 # export CAR_MODEL_NAME=mkz_01 
 # export APOLLO_ROOT_DIR=/home/neik/vinai/apollo
 # export PATH=/usr/local/cuda-10.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-export PATH=/opt/cmake/cmake-3.20.6-linux-x86_64/bin:$PATH
+# export PATH=/opt/cmake/cmake-3.20.6-linux-x86_64/bin:$PATH
 export PATH=/opt/ipg/bin/:$PATH
 export PATH=/usr/src/tensorrt/bin/:$PATH
 export PATH=/usr/local/cuda/bin/:$PATH
 export CUDA_HOME=/usr/local/cuda
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/rti_connext_dds-6.0.1/lib/armv8Linux4.4gcc5.4.0:/opt/rti_connext_dds-6.0.1/lib/armv8QNX7.0.0qcc_gpp5.4.0:/opt/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/vinai_adas_dds/1.0.19/lib/armv8Linux4.4gcc5.4.0:/opt/vinai_adas_dds/1.0.19/lib/armv8QNX7.0.0qcc_gpp5.4.0:/opt/vinai_adas_dds/1.0.19/lib/x64Linux4gcc7.3.0
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/vinai_adas_dds/lib/armv8Linux4.4gcc5.4.0:/opt/vinai_adas_dds/lib/armv8QNX7.0.0qcc_gpp5.4.0:/opt/vinai_adas_dds/lib/x64Linux4gcc7.3.0
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 # export DATA_PATH=/home/neik/data/
 
