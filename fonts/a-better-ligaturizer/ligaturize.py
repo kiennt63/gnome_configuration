@@ -277,7 +277,6 @@ def change_font_names(font, fontname, fullname, familyname, copyright_add, uniqu
     font.fontname = fontname
     font.fullname = fullname
     font.familyname = familyname
-    font.copyright += copyright_add
     font.sfnt_names = tuple(
         (row[0], 'UniqueID', unique_id) if row[1] == 'UniqueID' else row
         for row in font.sfnt_names
