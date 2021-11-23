@@ -5,19 +5,13 @@ VteTerminal, vte-terminal {
 
 /* Title bar */
 .titlebar {
-    background: linear-gradient(to right, #ff9ad2, #b28ef5);
+    background: linear-gradient(to right, #b2b1ec, #fbc7d4);
     color:rgb(63, 63, 63); 
-    height: 40px !important;
-    max-height: 40px !important;
-    min-height: 40px !important;
 }
 
 .titlebar:backdrop  {
-    background: linear-gradient(to right, #ffb9e0, #c5acf1);
+    background: linear-gradient(to right, #d4d4ee, #ffe2e9);
     color:rgb(63, 63, 63);
-    height: 40px !important;
-    max-height: 40px !important;
-    min-height: 40px !important;
 } 
 
 /* .terminator-terminal-window notebook tab {
